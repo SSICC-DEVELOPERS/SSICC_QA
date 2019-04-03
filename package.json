@@ -1,0 +1,20 @@
+{
+  "name": "planit",
+  "version": "1.0.0",
+  "main": "codecept.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "selenium-standalone": "^6.16.0",
+    "webdriverio": "^5.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "codeceptjs run --steps --grep CuentaCorriente "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
