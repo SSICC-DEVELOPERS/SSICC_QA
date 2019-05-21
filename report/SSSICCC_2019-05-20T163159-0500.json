@@ -1,0 +1,1087 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-20T21:31:13.179Z",
+    "end": "2019-05-20T21:31:59.532Z",
+    "duration": 46353,
+    "testsRegistered": 14,
+    "passPercent": 7.1,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 13,
+    "hasSkipped": true,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "b27dc7a2-0b8d-4a9a-ab23-c36e141e7b33",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "8aed41b7-3133-4378-8892-d855a65ae25c",
+        "title": "ConsultaCuentaCorriente",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "ConsultaCuentaCorriente \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "e1643fca-cd69-48fe-9208-f1cdc1f14a34",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "ConsultaCuentaCorriente \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "a1235f6c-ff6a-47c0-88fe-2653b28c622a",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "ConsultaCuentaCorriente \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "89efe224-ede7-42b8-a23d-9532ef84074e",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "ConsultaCuentaCorriente \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "6dd44529-04a1-4520-92b4-dba44a54b5b5",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "ConsultaCuentaCorriente {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"044176467\"} @ConsultaCuentaCorriente @FlujoBasico",
+            "fullTitle": "ConsultaCuentaCorriente ConsultaCuentaCorriente {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"044176467\"} @ConsultaCuentaCorriente @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "96504396-e07f-461a-9cca-6cf0a188bacc",
+            "isHook": false,
+            "skipped": true
+          },
+          {
+            "title": "ConsultaCuentaCorriente {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"007297319\"} @ConsultaCuentaCorriente @FlujoBasico",
+            "fullTitle": "ConsultaCuentaCorriente ConsultaCuentaCorriente {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"007297319\"} @ConsultaCuentaCorriente @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "0673e761-cf45-4752-8b61-95396c73d17e",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "96504396-e07f-461a-9cca-6cf0a188bacc",
+          "0673e761-cf45-4752-8b61-95396c73d17e"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "866dd310-065f-4e50-900a-c6fd814188ab",
+        "title": "ConsultaPedidos",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "ConsultaPedidos \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "d2ef0334-abcb-4770-afcc-7f4fb08206d6",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "ConsultaPedidos \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "999cb347-ea42-41c3-8df6-4c4216f1c05a",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "ConsultaPedidos \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "109f07d3-2c5f-4320-82d7-74e2e3825981",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "ConsultaPedidos \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "2af1804b-1b23-4f65-b32d-45a8d461c6dc",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "ConsultaPedidos {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"044176467\"} @ConsultaPedidos @FlujoBasico",
+            "fullTitle": "ConsultaPedidos ConsultaPedidos {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"044176467\"} @ConsultaPedidos @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "eb53fd83-0d3f-40c8-a81d-25b4d101553a",
+            "isHook": false,
+            "skipped": true
+          },
+          {
+            "title": "ConsultaPedidos {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"007297319\"} @ConsultaPedidos @FlujoBasico",
+            "fullTitle": "ConsultaPedidos ConsultaPedidos {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"007297319\"} @ConsultaPedidos @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "5b9a8eb8-bf9e-487c-9a87-1d8cc5cc5294",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "eb53fd83-0d3f-40c8-a81d-25b4d101553a",
+          "5b9a8eb8-bf9e-487c-9a87-1d8cc5cc5294"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "2f137471-b1ad-4b52-8800-bc7fb1f95f60",
+        "title": "DatosGenerales",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "DatosGenerales \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "9482c7d0-9189-45e0-ba89-287883aae758",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "DatosGenerales \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "0e5991d5-96e7-49b1-8078-87e53f4f1679",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "DatosGenerales \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "e13089e5-5409-4e5a-9430-24d3614fcbea",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "DatosGenerales \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "929d57c3-52c2-4ac8-ad7e-97f59ca7d865",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "DatosGenerales {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"044176467\"} @DatosGenerales @FlujoBasico",
+            "fullTitle": "DatosGenerales DatosGenerales {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"044176467\"} @DatosGenerales @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "6b1c1d98-2165-4b64-b075-8bb5cecdc363",
+            "isHook": false,
+            "skipped": true
+          },
+          {
+            "title": "DatosGenerales {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"007297319\"} @DatosGenerales @FlujoBasico",
+            "fullTitle": "DatosGenerales DatosGenerales {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"007297319\"} @DatosGenerales @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "d1269d3f-b450-465f-b899-6516a105e681",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "6b1c1d98-2165-4b64-b075-8bb5cecdc363",
+          "d1269d3f-b450-465f-b899-6516a105e681"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "15ca8e51-cc35-4c31-aaaf-424cb93b12e1",
+        "title": "RegistroReclamos",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "RegistroReclamos \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "5258ed89-505a-4585-a4c5-3893c0a1844f",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "RegistroReclamos \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "ff68592a-f4f3-452e-81a7-dc7c351659df",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "RegistroReclamos \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "0c48685f-9713-4b74-a540-e455a1440931",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "RegistroReclamos \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "f5552705-5cba-4d23-9949-23465556f968",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "RegistroReclamos {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"043226282\",\"NumeroCDR\":\"12345678\",\"CodigoVenta\":\"04887\",\"Cantidad\":\"1\"} @RegistroReclamos @FlujoBasico",
+            "fullTitle": "RegistroReclamos RegistroReclamos {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"CodigoConsultora\":\"043226282\",\"NumeroCDR\":\"12345678\",\"CodigoVenta\":\"04887\",\"Cantidad\":\"1\"} @RegistroReclamos @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "a31a93b6-3bb4-415f-b116-ca168cc23735",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "a31a93b6-3bb4-415f-b116-ca168cc23735"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "fa86ee8e-6eec-44dd-a147-1209188de162",
+        "title": "MantenimientoDeConcurso",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "MantenimientoDeConcurso \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 2,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "021dd81d-6f40-4746-817b-baae5432ea73",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "MantenimientoDeConcurso \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 3413,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1788e791-2af7-44ff-8772-7efbf99a8ae3",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "MantenimientoDeConcurso \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "4450ad45-44ba-4a2e-84c5-fd9c86f74a52",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "MantenimientoDeConcurso \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 76,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "d3b7de5e-5053-4f79-91a6-d24c26c5768e",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "MantenimientoDeConcurso {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"NombreConcurso\":\"RXP C03/C07\",\"CampaniaInicio\":\"201909\",\"CampaniaFinal\":\"201909\",\"CodigoProducto\":\"200091328\",\"PuntajeMinimo\":\"20\",\"PuntajeMaximo\":\"500\"} @MantenimientoDeConcurso @FlujoBasico",
+            "fullTitle": "MantenimientoDeConcurso MantenimientoDeConcurso {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"NombreConcurso\":\"RXP C03/C07\",\"CampaniaInicio\":\"201909\",\"CampaniaFinal\":\"201909\",\"CodigoProducto\":\"200091328\",\"PuntajeMinimo\":\"20\",\"PuntajeMaximo\":\"500\"} @MantenimientoDeConcurso @FlujoBasico",
+            "timedOut": false,
+            "duration": 42839,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "21aceebd-3d24-4571-bbaf-0f88e7410bbe",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "21aceebd-3d24-4571-bbaf-0f88e7410bbe"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 42839,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "fd389a8d-7c6b-4fd5-a8f5-301b115218e7",
+        "title": "ModificacionDeOferta",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "ModificacionDeOferta \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "26ac1f50-27b4-420b-900d-a130af7a33ed",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "ModificacionDeOferta \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "7fc37846-c9e2-4fe9-b9a3-24209fa0cc28",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "ModificacionDeOferta \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "d5c99b34-6da7-4142-97c8-7aba3769f6c1",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "ModificacionDeOferta \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "9ccaf806-365e-471c-8688-30ae74740de4",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "ModificacionDeOferta {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"Campania\":\"201907\",\"CUV\":\"29441\",\"PContable\":\"100\"} @ModificacionDeOferta @FlujoBasico",
+            "fullTitle": "ModificacionDeOferta ModificacionDeOferta {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"Campania\":\"201907\",\"CUV\":\"29441\",\"PContable\":\"100\"} @ModificacionDeOferta @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "5fb0498c-8098-4aca-a2be-4ef9aaff3e83",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "5fb0498c-8098-4aca-a2be-4ef9aaff3e83"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "1f8d3e56-32c7-4097-8c77-1976970063b0",
+        "title": "MantenimientoMav",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "MantenimientoMav \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "8baabf63-f4e1-4711-807a-63ab60dd8598",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "MantenimientoMav \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "6d056dfc-788e-4ccf-a556-d24a7ff1ea1c",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "MantenimientoMav \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "3005cef2-09c4-44d7-b319-6ea08ac5197a",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "MantenimientoMav \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "10397cd0-f6ef-4879-aa86-ce050a786dbb",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "MantenimientoMav {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"Campania\":\"201908\",\"UnidadesEstimadas\":\"500\",\"Producto\":\"400081838\",\"Precio\":\"30\",\"Observaciones\":\"MAV SIN COMISION\",\"EdadDesde\":\"40\",\"EdadHasta\":\"50\"} @MantenimientoMav @FlujoBasico",
+            "fullTitle": "MantenimientoMav MantenimientoMav {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"Campania\":\"201908\",\"UnidadesEstimadas\":\"500\",\"Producto\":\"400081838\",\"Precio\":\"30\",\"Observaciones\":\"MAV SIN COMISION\",\"EdadDesde\":\"40\",\"EdadHasta\":\"50\"} @MantenimientoMav @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "82f7c967-de8e-4f00-9ea4-bb5042abbfb6",
+            "isHook": false,
+            "skipped": true
+          },
+          {
+            "title": "MantenimientoMav {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"Campania\":\"201908\",\"UnidadesEstimadas\":\"500\",\"Producto\":\"400081838\",\"Precio\":\"30\",\"Observaciones\":\"MAV SIN COMISION\",\"EdadDesde\":\"40\",\"EdadHasta\":\"50\"} @MantenimientoMav @FlujoBasico",
+            "fullTitle": "MantenimientoMav MantenimientoMav {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"Campania\":\"201908\",\"UnidadesEstimadas\":\"500\",\"Producto\":\"400081838\",\"Precio\":\"30\",\"Observaciones\":\"MAV SIN COMISION\",\"EdadDesde\":\"40\",\"EdadHasta\":\"50\"} @MantenimientoMav @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "a467f93e-b3e4-4825-ad3a-346169bf99ab",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "82f7c967-de8e-4f00-9ea4-bb5042abbfb6",
+          "a467f93e-b3e4-4825-ad3a-346169bf99ab"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "6b3f4aa3-49d4-4533-93aa-25297fcc13d3",
+        "title": "LiquidacionDeBoletasDeRecojo",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "LiquidacionDeBoletasDeRecojo \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "b2917af0-5a62-4ee4-b864-d422781a977b",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "LiquidacionDeBoletasDeRecojo \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "479b6c7a-454f-4603-90a2-2829f1b8b619",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "LiquidacionDeBoletasDeRecojo \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "00387c1b-c309-4caa-b06b-a0816844effc",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "LiquidacionDeBoletasDeRecojo \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "8069a276-3322-47fb-8555-8e3d86ae0f83",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "LiquidacionDeBoletasDeRecojo {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"PeriodoInicial\":\"201808\",\"PeriodoFinal\":\"201913\"} @LiquidacionDeBoletasDeRecojo @FlujoBasico",
+            "fullTitle": "LiquidacionDeBoletasDeRecojo LiquidacionDeBoletasDeRecojo {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"PeriodoInicial\":\"201808\",\"PeriodoFinal\":\"201913\"} @LiquidacionDeBoletasDeRecojo @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "a6105980-3a99-43fe-b897-b0415dd90ce0",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "a6105980-3a99-43fe-b897-b0415dd90ce0"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "a546ef82-25c1-4f81-8b08-be23afc1c5bf",
+        "title": "ConsultarPedidos",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "ConsultarPedidos \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "2ffb30c6-be9d-4ca2-a04c-e35bc07b81cb",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "ConsultarPedidos \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "3e52cc9b-27b0-4fc7-a4b5-680fdb49a1d4",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "ConsultarPedidos \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "495b5ecd-c473-457c-87f2-bd4d011466b3",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "ConsultarPedidos \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "20aec9b7-389f-434e-aff0-7b35b68aaa66",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "ConsultarPedidos {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"Periodo\":\"201908\",\"CodigoCliente\":\"007297319\",\"GP5\":\"1\"} @ConsultarPedidos @FlujoBasico",
+            "fullTitle": "ConsultarPedidos ConsultarPedidos {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\",\"Periodo\":\"201908\",\"CodigoCliente\":\"007297319\",\"GP5\":\"1\"} @ConsultarPedidos @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "d267cf78-8bd1-487f-b220-41351d8f6246",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "d267cf78-8bd1-487f-b220-41351d8f6246"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "c4068720-5c8d-4649-935e-0e73d38ab5fe",
+        "title": "GestiondeErroresdeValidacion",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "GestiondeErroresdeValidacion \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "38fc5070-f80b-4b9f-95b3-bcb8540b344c",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "GestiondeErroresdeValidacion \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "a539b9fc-0eb3-4a47-82d0-14794c1c28bc",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "GestiondeErroresdeValidacion \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "25faf7d2-d050-487a-84d5-f773ded7e4ba",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "GestiondeErroresdeValidacion \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "9ace94e9-a87e-499e-8e52-5e3cf9b5a5e2",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "GestiondeErroresdeValidacion {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\"} @GestiondeErroresdeValidacion @FlujoBasico",
+            "fullTitle": "GestiondeErroresdeValidacion GestiondeErroresdeValidacion {\"Usuario\":\"PRUEBAAUTO\",\"Password\":\"BELCORP\"} @GestiondeErroresdeValidacion @FlujoBasico",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(exampleSteps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "6a85e88c-4b8a-4174-b93f-309cf68ddeb0",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "6a85e88c-4b8a-4174-b93f-309cf68ddeb0"
+        ],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 0
+  },
+  "copyrightYear": 2019
+}

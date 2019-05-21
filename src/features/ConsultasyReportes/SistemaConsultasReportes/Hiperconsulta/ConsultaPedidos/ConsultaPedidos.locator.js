@@ -1,0 +1,17 @@
+config = {
+    locator: {
+        LinkConsultaReportes: {xpath:'//*[@id="menu"]/li/a[contains(text(),"CONSULTAS Y REPORTES")]'},
+        LinkSistemaConsultasReportes: {xpath:'//*[@id="menu2"]/a[contains(text(),"SISTEMA CONSULTAS Y REPORTES")]'},
+        LinkHiperConsulta: {xpath:'//*[contains(text(),"HIPERCONSULTA")]'},       
+        OptionMostrarDatosCliente: {xpath:'//*[@id="menu3"]/a[contains(text(),"Mostrar Datos Cliente")]'},
+        TxtCodigoConsultora: {xpath:'//*[@id="codigoClienteBuscar"]'},
+        BtnBusqueda: {xpath:'//*[starts-with(@id,"botonBusqueda")]/child::img'},          
+        TxtOptionConsultar: {xpath:'//*[@id="opcionConsulta:select"]'},
+        CmbOptionConsultar: {xpath:'//div[@class="ui-selectonemenu-items-wrapper"]/ul/li[contains(text(),"CONSULTA PEDIDOS")]'},
+        ImgDetalle: {xpath:'//*[starts-with(@aria-label,"Detalle")]/child::img'},
+        Frame:{frame:'//*[@id="iframeCenter"]'},
+        BtnSalir: {xpath:'//*[starts-with(@id,"idSalirSistema")]/child::img'},  
+    }
+  }
+  
+  module.exports.config=config;
