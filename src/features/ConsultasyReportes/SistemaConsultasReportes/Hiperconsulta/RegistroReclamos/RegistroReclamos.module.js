@@ -70,7 +70,6 @@ module.exports = {
         I.retry(wait).click(this.cfg.locator.BtnGuardar);
         I.wait(1); 
         I.acceptPopup();
-        console.log('clic Aceptar');
         console.log('Reclamo registrado satisfactoriamente(Call Center)- El CDR se encuentra en GP1');             
 
     },   
@@ -78,9 +77,9 @@ module.exports = {
 
    async CerrarSesion()
   { 
-     I.selectPopup("http://pelnx2090:7003/ssiccpeespdp/main.xhtml");   
-     I.wait(1);    
-     I.retry(wait).click(this.cfg.locator.BtnSalir);   
+         I.selectPopup("http://pelnx2090:7003/ssiccpeespdp/main.xhtml");   
+         I.wait(1);    
+         I.retry(wait).click(this.cfg.locator.BtnSalir);   
 
   }  
 }

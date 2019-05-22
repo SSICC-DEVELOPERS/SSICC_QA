@@ -51,23 +51,18 @@ class helperWebdriverIO extends Helper {
 
   async forceAcceptAlert() {
     let driver = this.helpers[HelperName];
-    console.log("entro");
-    //driver.switchTo();
-      try {
+    
+        try {
         let texto = await driver.browser.getAlertText();
-        console.log("alert texto", texto);
         if (texto)
         {
           driver.browser.acceptAlert();
-          //driver.browser.keys('Enter');      
         }
-        console.log("accept1");
+        
         await driver.browser.pause(2000);
-        console.log("ok");
         return texto;
         
       } catch (error) {
-        console.log("errrrrrrro",error);
         return null;
       }
 

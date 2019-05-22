@@ -52,6 +52,6 @@ module.exports = {
 
   async CerrarSesion()
   { 
-   I.retry(wait).click(this.cfg.locator.BtnSalir);    
+        I.retry(wait).click(this.cfg.locator.BtnSalir);    
   }
 }

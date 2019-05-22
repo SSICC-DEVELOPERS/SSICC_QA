@@ -19,35 +19,35 @@ module.exports = {
  async MantenimientoConcurso(NombreConcurso,CampaniaInicio,CampaniaFinal,CodigoProducto,PuntajeMinimo,PuntajeMaximo)
   {
          
-		within(this.cfg.locator.Frame, async() =>    
+				within(this.cfg.locator.Frame, async() =>    
 
-		{            
-			I.retry(wait).click(this.cfg.locator.BtnNuevo);
-	//		await I.wait(1);           
-			I.retry(wait).fillField(this.cfg.locator.TxtNombreConcurso, NombreConcurso);
-			I.retry(wait).fillField(this.cfg.locator.TxtCampanaInicio, CampaniaInicio);
-			I.retry(wait).fillField(this.cfg.locator.TxtCampanaFinal, CampaniaFinal);
-			I.retry(wait).click(this.cfg.locator.PestanaPremiacion);
-//			await I.wait(1);
-			I.retry(wait).click(this.cfg.locator.Nivel1);
-//			await I.wait(1);
-			I.retry(wait).click(this.cfg.locator.IconoDefinirPremio);
-//			await I.wait(1); 			
-			I.retry(wait).fillField(this.cfg.locator.TxtCodigoProducto, CodigoProducto);
-			I.retry(wait).click(this.cfg.locator.IconoInsertar);
-//			await I.wait(1);    
-			I.retry(wait).click(this.cfg.locator.BtnFlechaAtras);
-//			await I.wait(1);  			
-			I.retry(wait).fillField(this.cfg.locator.TxtPuntajeMinimo, PuntajeMinimo);
-			I.retry(wait).fillField(this.cfg.locator.TxtPuntajeMaximo, PuntajeMaximo);
-			I.retry(wait).click(this.cfg.locator.BtnGuardar);
-//			await I.wait(1);   
-			I.retry(wait).click(this.cfg.locator.BtnProcesarInformacion);
-//			await I.wait(1);   
-			I.retry(wait).click(this.cfg.locator.BtnAceptarMensajeCreacion);
-//			await I.wait(1);  
-      console.log('El Concurso ha sido creado satisfactoriamente');
-		});			
+				{            
+					I.retry(wait).click(this.cfg.locator.BtnNuevo);
+			//		await I.wait(1);           
+					I.retry(wait).fillField(this.cfg.locator.TxtNombreConcurso, NombreConcurso);
+					I.retry(wait).fillField(this.cfg.locator.TxtCampanaInicio, CampaniaInicio);
+					I.retry(wait).fillField(this.cfg.locator.TxtCampanaFinal, CampaniaFinal);
+					I.retry(wait).click(this.cfg.locator.PestanaPremiacion);
+		//			await I.wait(1);
+					I.retry(wait).click(this.cfg.locator.Nivel1);
+		//			await I.wait(1);
+					I.retry(wait).click(this.cfg.locator.IconoDefinirPremio);
+		//			await I.wait(1); 			
+					I.retry(wait).fillField(this.cfg.locator.TxtCodigoProducto, CodigoProducto);
+					I.retry(wait).click(this.cfg.locator.IconoInsertar);
+		//			await I.wait(1);    
+					I.retry(wait).click(this.cfg.locator.BtnFlechaAtras);
+		//			await I.wait(1);  			
+					I.retry(wait).fillField(this.cfg.locator.TxtPuntajeMinimo, PuntajeMinimo);
+					I.retry(wait).fillField(this.cfg.locator.TxtPuntajeMaximo, PuntajeMaximo);
+					I.retry(wait).click(this.cfg.locator.BtnGuardar);
+		//			await I.wait(1);   
+					I.retry(wait).click(this.cfg.locator.BtnProcesarInformacion);
+		//			await I.wait(1);   
+					I.retry(wait).click(this.cfg.locator.BtnAceptarMensajeCreacion);
+		//			await I.wait(1);  
+					console.log('El Concurso ha sido creado satisfactoriamente');
+				});			
   },  
   
   	async CerrarSesion()
