@@ -57,3 +57,4 @@ exports.config = {
     }
   }  
 }
+//console.log(module.exports.config)
