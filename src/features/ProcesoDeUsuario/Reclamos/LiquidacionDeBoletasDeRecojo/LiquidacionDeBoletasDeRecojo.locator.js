@@ -15,7 +15,7 @@ config = {
       //  CmbOptionEstado: {xpath:'//div[@class="ui-selectonemenu-items-wrapper"]/ul/li[contains(text(),"Pendiente")]'},        
 
 
-       BtnBusqueda: {xpath:'//*[starts-with(@aria-label,"Buscar")]/child::img'},      
+        BtnBusqueda: {xpath:'//*[starts-with(@aria-label,"Buscar")]/child::img'},      
         BtnConfirmacionLBR: {xpath:'//*[@id="dialogConfirmarBuscar:btnAlertDialogSI"]'},   
         RegistrosEncontradosLBR: {xpath:'//*[@id="tablaMuestraDatos_data"]/tr[1]/td[1]/div/div[2]'},
         BtnAprobarLBR: {xpath:'//*[starts-with(@aria-label,"Aprobar")]/child::img'},

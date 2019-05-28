@@ -23,9 +23,9 @@ module.exports = {
           {
           I.retry(wait).fillField(this.cfg.locator.TxtPeriodoInicial, PeriodoInicial);
           I.retry(wait).fillField(this.cfg.locator.TxtPeriodoFinal, PeriodoFinal);
-		      I.retry(wait).click(this.cfg.locator.TxtEstado);
-		      I.retry(wait).click(this.cfg.locator.CmbOptionEstado);      
-		      I.retry(wait).pressKey('Enter');                        
+	    I.retry(wait).click(this.cfg.locator.TxtEstado);
+	    I.retry(wait).click(this.cfg.locator.CmbOptionEstado);      
+	    I.retry(wait).pressKey('Enter');                        
           await I.wait(1);          
           I.retry(wait).click(this.cfg.locator.BtnBusqueda);
           await I.wait(1);
@@ -40,7 +40,7 @@ module.exports = {
     //      I.wait(5);            
           I.retry(wait).click(this.cfg.locator.RegistrosEncontradosLBR);
      //     I.wait(5);            
-		      I.retry(wait).click(this.cfg.locator.BtnAprobarLBR);
+	    I.retry(wait).click(this.cfg.locator.BtnAprobarLBR);
       //    I.wait(5);            
           I.retry(wait).click(this.cfg.locator.BtnConfirmacionOpcionesLBR);
       //	  I.wait(5);  
