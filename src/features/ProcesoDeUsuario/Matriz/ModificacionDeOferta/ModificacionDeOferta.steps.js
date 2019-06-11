@@ -13,13 +13,13 @@ Given('Ingreso a Mantenimmiento de Oferta con el Usuario {string} y Contrasena {
 });
 
 When('Ingreso Campania {string} y CUV {string}', async function(Campania,CUV){
-  	this.Campania=Campania;
-    this.CUV=CUV;
-    modulo.ModificarOferta(this.Campania,this.CUV);    
+      this.Campania=Campania;
+      this.CUV=CUV;
+      modulo.ModificarOferta(this.Campania,this.CUV);    
 });
 
 Then('Muestra {string} y el mensaje Producto actualizado satisfactoriamente', function(PContable){
-    this.PContable=PContable;
-    modulo.mostrarPopup(PContable);
-    modulo.CerrarSesion();
+      this.PContable=PContable;
+      modulo.mostrarPopup(PContable);
+      modulo.CerrarSesion();
 });

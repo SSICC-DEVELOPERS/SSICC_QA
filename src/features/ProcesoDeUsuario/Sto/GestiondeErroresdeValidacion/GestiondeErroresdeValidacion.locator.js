@@ -1,6 +1,5 @@
 config = {
     locator: {
-            // {xpath:' '},
             LinkProcesoUsuario: {xpath:'//*[@id="menu"]/li/a[contains(text(),"PROCESOS DE USUARIO")]'},
             LinkSTO: {xpath:'//*[@id="menu2"]/a[contains(text(),"STO")]'},
             LinkGestionEV: {xpath:'//*[@id="menu4"]/a[contains(text(),"Gestion de Errores de Validacion")]'},

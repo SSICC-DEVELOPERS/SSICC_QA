@@ -9,4 +9,4 @@ Then Muestra el mensaje Reclamo registrado satisfactoriamente El CDR se encuentr
 
 Examples:
   |Usuario      | Password   | CodigoConsultora| NumeroCDR | CodigoVenta | Cantidad |
-  |PRUEBAAUTO   | BELCORP    | 044769360       | 12345678  | 03935       | 1        |   
+  |PRUEBAAUTO   | BELCORP    | 007527764       | 300124    | 11245       | 1        |   

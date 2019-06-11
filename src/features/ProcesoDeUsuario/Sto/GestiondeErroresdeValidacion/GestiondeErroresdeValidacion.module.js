@@ -14,7 +14,6 @@ module.exports = {
           I.retry(wait).click(this.cfg.locator.LinkProcesoUsuario);
           I.retry(wait).click(this.cfg.locator.LinkSTO);
           I.retry(wait).click(this.cfg.locator.LinkGestionEV);
-    //      await I.wait(2);
    },
 
    async IngresoCriteriosEjecucion()
@@ -49,8 +48,6 @@ module.exports = {
          await I.wait(1);   
          I.retry(wait).click(this.cfg.locator.BtnEjecutarProceso);
          I.retry(wait).click(this.cfg.locator.BtnConfirmacionEP);
-         //I.retry(wait).wait(5);   
-   //      await I.wait(5); 
          I.retry(wait).see('Proceso Concluido, Revisar Ejecución'); 
          console.log('Proceso Concluido, Revisar Ejecución');      
        });

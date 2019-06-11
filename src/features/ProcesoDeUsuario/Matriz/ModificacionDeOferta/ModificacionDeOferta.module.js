@@ -23,16 +23,12 @@ module.exports = {
      {
             I.retry(wait).fillField(this.cfg.locator.TxtCampania, Campania);
             I.retry(wait).fillField(this.cfg.locator.TxtCVU, CUV);
-     //       await I.wait(1);
             I.retry(wait).click(this.cfg.locator.BtnBusqueda);
             await I.wait(1);
             I.retry(wait).click(this.cfg.locator.RegistrosEncontrados);
             I.retry(wait).click(this.cfg.locator.BtnModificar);
-     //       await I.wait(1);
             I.retry(wait).click(this.cfg.locator.REncontradosModificarRE);
-     //       await I.wait(1);
             I.retry(wait).click(this.cfg.locator.BtnModificarRE);
-     //       await I.wait(3);           
        });
   },  
  
@@ -42,10 +38,8 @@ module.exports = {
     {
        
             I.retry(wait).seeElement(this.cfg.locator.CargaPopup); 
-   //         await I.wait(1);
             I.retry(wait).fillField(this.cfg.locator.TxtPrecioContable, PContable); 
             I.retry(wait).click(this.cfg.locator.BtnGuardar);
-    //        await I.wait(1);
             I.retry(wait).see('Producto actualizado satisfactoriamente.');
             console.log('Producto actualizado satisfactoriamente.');            
 

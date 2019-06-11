@@ -37,13 +37,9 @@ module.exports = {
           within(this.cfg.locator.Frame, async() =>           
         {
           I.retry(wait).click(this.cfg.locator.BtnConfirmacionLBR);
-    //      I.wait(5);            
           I.retry(wait).click(this.cfg.locator.RegistrosEncontradosLBR);
-     //     I.wait(5);            
 	    I.retry(wait).click(this.cfg.locator.BtnAprobarLBR);
-      //    I.wait(5);            
           I.retry(wait).click(this.cfg.locator.BtnConfirmacionOpcionesLBR);
-      //	  I.wait(5);  
           console.log('Se aprobaron las boletas de recojo satisfactoriamente');         
 
          });         
