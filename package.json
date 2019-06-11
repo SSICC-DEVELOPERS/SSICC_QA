@@ -1,0 +1,43 @@
+{
+  "name": "ssicc",
+  "version": "1.0.0",
+  "main": "codecept.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "selenium-standalone": "^6.16.0",
+    "webdriverio": "^5.7.13"
+  },
+  "devDependencies": {
+    "codeceptjs": "^2.1.1",
+    "mochawesome": "^3.1.2",
+    "puppeteer": "^1.15.0"
+  },
+  "scripts": {
+    "test": "codeceptjs run --grep @GestiondeErroresdeValidacion",
+    "start": "codeceptjs run --grep @GestiondeErroresdeValidacion --reporter mochawesome",
+    "test1": "codeceptjs run --grep @ConsultaCuentaCorriente --reporter mochawesome",
+    "test2": "codeceptjs run --grep @ConsultaPedidos --reporter mochawesome",
+    "test3": "codeceptjs run --grep @DatosGenerales --reporter mochawesome",
+    "test4": "codeceptjs run --grep @RegistroReclamos --verbose --reporter mochawesome",
+    "test5": "codeceptjs run --grep @MantenimientoDeConcurso --reporter mochawesome",
+    "test6": "codeceptjs run --grep @ModificacionDeOferta --reporter mochawesome",
+    "test7": "codeceptjs run --grep @MantenimientoMav --reporter mochawesome",
+    "test8": "codeceptjs run --grep @LiquidacionDeBoletasDeRecojo --reporter mochawesome",
+    "test9": "codeceptjs run --grep @ConsultarPedidos --reporter mochawesome",
+    "test10": "codeceptjs run --grep @GestiondeErroresdeValidacion --reporter mochawesome",
+    "todo": "codeceptjs run-multiple parallel --grep @FlujoBasico --reporter mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSICC-DEVELOPERS/SSICC_QA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SSICC-DEVELOPERS/SSICC_QA/issues"
+  },
+  "homepage": "https://github.com/SSICC-DEVELOPERS/SSICC_QA#readme",
+  "description": ""
+}
